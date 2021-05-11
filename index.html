@@ -1,13 +1,42 @@
 <!DOCTYPE html>
 <html>
+    <link rel="stylesheet" href="style.css">
     <head>
-        <title> Javascript trials</title>
+        <title> Rock Paper Scissors game!!</title>
         <meta charset="UTF-8"/>
-
     </head>
 
     <body>
-        <p> We are going to play ROCK PAPER SCISSOR</p>
-        <script src='rps.js'></script>
+        <img class="backgroundimage" src='images/background.jpg'>
+        <p id='heading'> We are going to play ROCK PAPER SCISSOR</p>
+        <div id='contents' class="content">
+            <div id='buttons'>
+                <p id='playername' class='name'>Player selection</p>
+                <button class='playerbutton' >
+                    <img src="images/rock.jpg" id="rock" class='images'/>
+                </button>
+                <button  class='playerbutton'>
+                    <img src="images/paper.jpg" id="paper" class='images'/>
+                </button>
+                <button class='playerbutton'>
+                    <img src="images/scissors.jpg" id="scissor" class='images'/>
+                </button>
+            </div>
+            <div id='comp-buttons'>
+                <p id='compname' class='name'>Computer selection</p>
+                <button class='compbutton'>
+                    <img src="images/rock.jpg" id="comp-rock" class='images'/>
+                </button>
+                <button  class='compbutton'>
+                    <img src="images/paper.jpg" id="comp-paper" class='images'/>
+                </button>
+                <button class='compbutton'>
+                    <img src="images/scissors.jpg" id="comp-scissor" class='images'/>
+                </button>
+            </div>
+        </div>
+        <audio id="winsound" src="sounds/rock.wav"></audio>
+        <audio id="losesound" src="sounds/scissor.wav"></audio>
+        <script src='rps2.js'></script>
     </body>
 </html>

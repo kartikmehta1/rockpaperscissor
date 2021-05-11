@@ -1,0 +1,89 @@
+
+html {
+    overflow: hidden;
+    position: relative;
+    background-color: black;
+
+}
+
+.backgroundimage{
+  opacity: 0.15;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.content {
+    position: relative;
+    display: flex;
+    justify-content:space-evenly;
+    overflow: hidden; 
+  }
+
+.name{
+    color: wheat;
+    text-align: center;
+    font-size: 20px;
+    width:100%;
+    flex-basis: 100%;
+}
+#heading{
+    color: wheat;
+    text-align: center;
+    font-size: 40px;
+    width:100%;
+    flex-basis: 100%;
+}
+.reset{
+    position: relative;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+.result{
+    position: relative;
+    display: flex;
+    justify-content:space-evenly;
+}
+.score{
+    position: relative;
+    display: flex;
+    justify-content:space-evenly;
+}
+
+button{
+    padding: 4px;
+    border:none;
+    padding-bottom: 0px;  
+    transition: transform 2s; 
+}
+.playerbutton:hover{
+    background-color: yellow;
+    transform: scale(0.8);
+}
+
+.images{
+    height: 200px;
+    width: 200px;
+}
+
+#result, #score{
+    position:relative;
+    color: wheat;
+    text-align: center;
+    font-size: 60px;
+    width:100%;
+    flex-basis: 100%;
+}
+
+#reset{
+    position:relative;
+    color: rgb(238, 183, 81);
+    text-align: center;
+    font-size: 60px;
+    width:100%;
+    flex-basis: 100%;
+}
+
